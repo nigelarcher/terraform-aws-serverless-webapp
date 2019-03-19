@@ -70,6 +70,6 @@ variable "tags" {
 data "aws_caller_identity" "current" {
 }
 
-var "aws_region" {
+variable "aws_region" {
   default     = "ap-southeast-2"
 }
